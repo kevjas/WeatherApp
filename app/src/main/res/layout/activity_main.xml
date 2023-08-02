@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#299CA6"
+    android:background="#70B9E1"
     android:orientation="vertical"
     android:padding="25dp"
     tools:context=".MainActivity">
@@ -79,341 +79,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/mtrl_calendar_days_of_week"
-            android:layout_width="match_parent"
-            android:layout_height="106dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="272dp"
-            android:layout_marginEnd="-3dp"
-            android:layout_marginBottom="0dp"
-            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Måndag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/Man"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tisdag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/tis"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Onsdag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/ons"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Torsdag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/tors"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fredag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/fre"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lördag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/lor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-            <LinearLayout
-                android:layout_width="25dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#6A95938D"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/rain"
-                    app:tint="#FFF">
-
-                </ImageView>
-
-                <Space
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Söndag"
-                    android:textSize="12sp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/sunrise"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="°C"
-                    android:textSize="14sp">
-
-                </TextView>
-            </LinearLayout>
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
-
-            </Space>
-
-
-        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/detailsContainer"
@@ -446,58 +112,7 @@
             android:layout_alignParentBottom="true"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3">
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#6A95938D"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-                    <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:src="@drawable/sunrise2"
-                        app:tint="#FFF"></ImageView>
-
-                    <Space
-                        android:layout_width="5dp"
-                        android:layout_height="wrap_content">
-
-                    </Space>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sunrise"
-                        android:textSize="12sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:id="@+id/sunrise3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="5:30am"
-                        android:textSize="14sp">
-
-                    </TextView>
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content">
-
-                </Space>
-
-            </LinearLayout>
 
         </LinearLayout>
         <Space
@@ -514,24 +129,15 @@
             android:layout_marginBottom="3dp"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/temp_max"
-                android:layout_width="99dp"
-                android:layout_height="41dp"
-                android:gravity="center_horizontal"
-                android:text="Max Temp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/temp_min" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Min Temp: 05:05 AM"/>
+                <Space android:layout_width="50dp" android:layout_height="wrap_content"/>
 
-            </TextView>
-
-            <TextView
-                android:id="@+id/temp_min"
-                android:layout_width="94dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:text="Min temp">
-
-            </TextView>
+                <TextView android:id="@+id/temp_max" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Max Temp: 05:05 PM"/>
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/temp"
@@ -840,6 +446,342 @@
                 </Space>
 
             </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mtrl_calendar_days_of_week"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="272dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+               <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Måndag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/Man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tisdag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Onsdag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/ons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+              //<ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Torsdag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fredag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/fre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lördag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/lor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#6A95938D"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/rain"
+                    app:tint="#FFF">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Söndag"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°C"
+                    android:textSize="14sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
 
         </LinearLayout>
 
