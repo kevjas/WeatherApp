@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_bg"
+    android:background="#299CA6"
     android:orientation="vertical"
     android:padding="25dp"
     tools:context=".MainActivity">
@@ -15,12 +15,23 @@
         android:layout_height="match_parent"
         android:visibility="visible">
 
+
         <LinearLayout
             android:id="@+id/addressContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Clear sky"
+                android:textSize="18sp">
+
+            </TextView>
 
             <TextView
                 android:id="@+id/address"
@@ -46,29 +57,9 @@
             android:id="@+id/overviewContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Clear sky"
-                android:textSize="18sp">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/temp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="sans-serif-thin"
-                android:text="24°C"
-                android:textSize="90sp">
-
-            </TextView>
 
 
             <LinearLayout
@@ -77,41 +68,25 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/temp_min"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Min temp">
-
-                </TextView>
-
                 <Space
                     android:layout_width="50dp"
                     android:layout_height="wrap_content">
 
                 </Space>
 
-                <TextView
-                    android:id="@+id/temp_max"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Max Temp">
-
-                </TextView>
             </LinearLayout>
 
 
         </LinearLayout>
 
-
         <LinearLayout
             android:id="@+id/mtrl_calendar_days_of_week"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/detailsContainer4"
-            android:layout_below="@+id/overviewContainer"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="1dp"
+            android:layout_height="106dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="272dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -154,11 +129,13 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -199,11 +176,13 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -244,11 +223,13 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -289,11 +270,13 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -334,11 +317,7 @@
 
                 </TextView>
             </LinearLayout>
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content">
 
-            </Space>
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -379,11 +358,13 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -424,12 +405,12 @@
 
                 </TextView>
             </LinearLayout>
+
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content">
 
             </Space>
-
 
 
         </LinearLayout>
@@ -524,12 +505,46 @@
             android:layout_height="wrap_content">
 
         </Space>
+
         <LinearLayout
             android:id="@+id/detailsContainer4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/temp_max"
+                android:layout_width="99dp"
+                android:layout_height="41dp"
+                android:gravity="center_horizontal"
+                android:text="Max Temp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/temp_min"
+                android:layout_width="94dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Min temp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="92dp"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="-20dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="24°C"
+                android:textSize="90sp">
+
+            </TextView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -548,9 +563,10 @@
 
 
                     <ImageView
+                        android:id="@+id/sunrisesunset"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/solned"
+                        android:src="@drawable/sunrise"
                         app:tint="#FFF"></ImageView>
 
                     <Space
@@ -576,11 +592,13 @@
 
                     </TextView>
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
 
                 </Space>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -593,7 +611,7 @@
                     <ImageView
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/solupp"
+                        android:src="@drawable/sunset"
                         app:tint="#FFF"></ImageView>
 
                     <Space
@@ -618,12 +636,15 @@
                         android:textSize="14sp">
 
                     </TextView>
+
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
 
                 </Space>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -662,6 +683,7 @@
 
                     </TextView>
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
@@ -669,10 +691,10 @@
                 </Space>
 
             </LinearLayout>
+
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="10dp">
-            </Space>
+                android:layout_height="10dp"></Space>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -692,7 +714,7 @@
                     <ImageView
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/rain"
+                        android:src="@drawable/pressure"
                         app:tint="#FFF">
 
                     </ImageView>
@@ -720,11 +742,13 @@
 
                     </TextView>
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
 
                 </Space>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -763,11 +787,13 @@
 
                     </TextView>
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
 
                 </Space>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -806,6 +832,7 @@
 
                     </TextView>
                 </LinearLayout>
+
                 <Space
                     android:layout_width="10dp"
                     android:layout_height="wrap_content">
@@ -815,6 +842,12 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content">
+
+        </Space>
 
 
     </RelativeLayout>
