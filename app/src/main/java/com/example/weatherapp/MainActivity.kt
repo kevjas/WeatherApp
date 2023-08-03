@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
-
 
     private val apiKey = "04cc4df7e82c60007c4b43bb41ad1549"
 
@@ -37,9 +38,32 @@ class MainActivity : AppCompatActivity() {
         sunriseTime = findViewById(R.id.sunrise_main_time)
         sunsetTime = findViewById(R.id.sunset_main_time)
 
+        val weatherApi by lazy {
+            Retrofit.Builder()
+                .baseUrl("https://api.openweathermap.org/data/2.5/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+                .create(WeatherInterface::class.java) }
 
-        //hejhej
+        locationName.setOnClickListener {
 
-        //he he
+            val city = locationName.text.toString()
+            if (city.isEmpty()){
+
+                mainTemp.text = ""
+                weatherDesc.text = ""
+                minTemp.text = ""
+                maxTemp.text = ""
+                humidity.text = ""
+                windSpeed.text = ""
+                sunsetTime.text = ""
+                sunriseTime.text = ""
+
+            }
+
+        }
+
+
+
     }
 }
