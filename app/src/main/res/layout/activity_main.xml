@@ -309,6 +309,7 @@
                 android:weightSum="3">
 
                 <LinearLayout
+                    android:id="@+id/lastfile"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -452,10 +453,10 @@
         <LinearLayout
             android:id="@+id/mtrl_calendar_days_of_week"
             android:layout_width="match_parent"
-            android:layout_height="106dp"
+            android:layout_height="98dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="272dp"
-            android:layout_marginEnd="-3dp"
+            android:layout_marginEnd="2dp"
             android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
@@ -468,10 +469,10 @@
                 android:orientation="vertical"
                 android:padding="8dp">
 
-               <ImageView
+                <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -518,7 +519,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -565,7 +566,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -609,10 +610,12 @@
                 android:orientation="vertical"
                 android:padding="8dp">
 
-              //<ImageView
+                //
+
+                <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -659,7 +662,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -688,6 +691,12 @@
                 </TextView>
             </LinearLayout>
 
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
             <LinearLayout
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
@@ -700,7 +709,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
@@ -747,7 +756,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/rain"
+                    android:src="@drawable/days"
                     app:tint="#FFF">
 
                 </ImageView>
