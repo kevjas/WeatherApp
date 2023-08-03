@@ -43,7 +43,8 @@ class MainActivity : AppCompatActivity() {
                 .baseUrl("https://api.openweathermap.org/data/2.5/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
-                .create(WeatherInterface::class.java) }
+                .create(WeatherInterface::class.java)
+        }
 
         locationName.setOnClickListener {
 
